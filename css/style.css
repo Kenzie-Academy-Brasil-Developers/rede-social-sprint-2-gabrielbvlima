@@ -64,7 +64,7 @@ body{
 .fotos {
 	columns: 3;
 	width: 94%;
-	margin-left: 2%;
+	margin-left: 2.4%;
 }
 
 .feed {
@@ -79,7 +79,7 @@ hr {
 }
 
 .icones {
-	margin-left: 312px;
+	margin-left: 317px;
 	margin-bottom: 25px;
 }
 
