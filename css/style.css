@@ -5,7 +5,7 @@
 }
 	
 body{
-	width: 880px;
+	width: 935px;
     margin: auto;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #262626;
@@ -63,7 +63,8 @@ body{
 
 .fotos {
 	columns: 3;
-	width: 100%;
+	width: 94%;
+	margin-left: 2%;
 }
 
 .feed {
@@ -71,8 +72,6 @@ body{
 	height: 293px;
 	object-fit: cover;
 	object-position: top;
-	margin-bottom: 1%;
-	margin-left: 5%;
 }
 
 hr {
@@ -80,7 +79,7 @@ hr {
 }
 
 .icones {
-	margin-left: 300px;
+	margin-left: 312px;
 	margin-bottom: 25px;
 }
 
