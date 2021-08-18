@@ -1,51 +1,170 @@
-/*
-Theme Name: Instagram
-Author: Kenzie Academy
-Author URI: kenzie.com.br;
-Version: 1.0
- 
---------------------------------------------
-SUGESTÃO DE ESTRUTURAÇÃO BASE 
---------------------------------------------
-**** DECLARAÇÃO DE VARIÁVEIS
-**** BODY
-**** TOPO
-**** RODAPÉ
-**** PÁGINA INICIAL
-*/
+@media (max-width: 480px) {
 
-/* VARIÁVEIS */
-:root{
-  
+.mobiledel {
+	display: none;
 }
-
-/*BODY*/
+	
 body{
+	width: 880px;
+    margin: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #262626;
+}
+
+.foto-perfil{
+	border-radius: 100%;
+	float: left;
+	margin-right: 3%;
+	margin-top: 10%;
+	margin-left: 3%;
+	width: 140px;
+	height: 140px;
+}
+
+.mobile1 {
+	position: absolute;
+	margin-left: 10%;
+}
+
+.mobile2 {
+	width: 880px;
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 10%;
+	font-size: 1.5em;
+}
+
+.mobile3 {
+	position: left;
+	padding-top: 15%;
+	font-size: 1.5em;
+}
+
+.highlighted-stories {
+	columns: 2;
+	margin-top: 23%;
+	margin-left: 3%;
+}
+
+.destaque {
+	width: 77px;
+	height: 77px;
+	border-radius: 100%;
+	object-fit: cover;
+	margin-left: 3.5%;
+}
+
+.subdestaques {
+	margin-left: 5.5%;
+	margin-top: 0.7%;
+	margin-bottom: 4%;
+	font-weight: bold;
+}
+
+.fotos {
+	columns: 3;
+	width: 100%;
+}
+
+.feed {
+	width: 293px;
+	height: 293px;
+	object-fit: cover;
+	object-position: top;
+	margin-bottom: 1%;
+	margin-left: 5%;
+}
+
+hr {
+	display: none;
+}
+
+.icones {
+	margin-left: 300px;
+	margin-bottom: 25px;
+}
+
+.icons {
+	width: 15px;
+	height: 15px;
+}
 
 }
 
-/*TOPO*/
+@media (min-width: 481px) {
+
+
+body{
+	width: 935px;
+    margin: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #262626;
+}
+
 header{
-	
+	margin-bottom: 50px;	
 }
 
-/*RODAPÉ*/
-footer{
-
+.foto-perfil{
+	border-radius: 100%;
+	float: left;
+	margin-right: 10%;
+	margin-top: -10px;
+	width: 140px;
+	height: 140px;
 }
 
-/*PÁGINA INICIAL*/
-main{
-	
+.profile-info {
+	line-height: 150%;
 }
-	main .profile-content{
 
-	}
+.highlighted-stories {
+	columns: 2;
+	margin-top: 7%;
+	margin-left: 1%;
+}
 
-	main .highlighted-stories{
+.destaque {
+	width: 77px;
+	height: 77px;
+	border-radius: 100%;
+	object-fit: cover;
+	margin-left: 3.5%;
+}
 
-	}
+.subdestaques {
+	margin-left: 3.7%;
+	margin-top: 0.7%;
+	margin-bottom: 4%;
+	font-weight: bold;
+}
 
-	main .profile-posts{
+hr {
+	width: 100%;
+}
 
-	}
+.icones {
+	margin-left: 320px;
+	margin-bottom: 25px;
+}
+
+.icons {
+	width: 15px;
+	height: 15px;
+}
+
+.fotos {
+	columns: 3;
+	width: 100%;
+}
+
+.feed {
+	width: 293px;
+	height: 293px;
+	object-fit: cover;
+	object-position: top;
+	margin-bottom: 10%;
+	margin-left: 2%;
+}
+
+}
