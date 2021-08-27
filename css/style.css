@@ -1,49 +1,44 @@
-@media (max-width: 480px) {
-
 .mobiledel {
 	display: none;
 }
 	
 body{
-	width: 935px;
+	display: flex;
+	max-width: 935px;
+	min-width: 471px;
     margin: auto;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #262626;
 }
 
 .foto-perfil{
+	border: 2px solid rgba(192, 192, 192, 0.658);
+	border-style: double;
 	border-radius: 100%;
 	float: left;
-	margin-right: 3%;
-	margin-top: 10%;
-	margin-left: 3%;
-	width: 140px;
-	height: 140px;
+	margin-left: -100px;
+	width: 120px;
+	height: 120px;
 }
 
 .mobile1 {
-	position: absolute;
-	margin-left: 10%;
+	margin-left: -60px;
+	width: 100%;
 }
 
 .mobile2 {
-	width: 880px;
-	position: absolute;
-	margin-top: 220px;
-	margin-left: 10%;
-	font-size: 1.5em;
+	margin-left: -55px;
+	margin-top: 160px;
+	margin-bottom: 30px;
+	font-size: 20px;
 }
 
 .mobile3 {
-	position: left;
-	padding-top: 15%;
-	font-size: 1.5em;
-}
-
-.highlighted-stories {
-	columns: 2;
-	margin-top: 23%;
-	margin-left: 3%;
+	margin-top: -180px;
+	font-size: 15px;
+	padding-right: 20px;
+	float: right;
+	
 }
 
 .destaque {
@@ -51,20 +46,26 @@ body{
 	height: 77px;
 	border-radius: 100%;
 	object-fit: cover;
-	margin-left: 3.5%;
+	margin-left: -60px;
+	margin-right: 60px;
 }
 
 .subdestaques {
-	margin-left: 5.5%;
-	margin-top: 0.7%;
-	margin-bottom: 4%;
+	margin-left: -50px;
+	margin-bottom: 40px;
 	font-weight: bold;
 }
 
 .fotos {
-	columns: 3;
-	width: 94%;
-	margin-left: 2.4%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.foto {
+	width: 293px;
+	height: 293px;
+	margin: 0;
+	padding: 5px;
 }
 
 .feed {
@@ -79,91 +80,109 @@ hr {
 }
 
 .icones {
-	margin-left: 317px;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
+	width: 100%;
 }
 
 .icons {
 	width: 15px;
 	height: 15px;
-}
-
 }
 
 @media (min-width: 481px) {
 
+	.mobiledel {
+		position: absolute;
+		display: unset;
+		margin-left: 40px;
+		width: 150px;
+	}
 
-body{
-	width: 935px;
-    margin: auto;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #262626;
-}
+	body{
+		border: 2px solid black;
+		display: flex;
+		width: 935px;
+		margin: 0;
+		margin-top: 20px;
+		margin-left: 20px;
+		font-family: Helvetica, Arial, sans-serif;
+		color: #262626;
+	}
 
-header{
-	margin-bottom: 50px;	
-}
+	.mobile1 {
+		position: absolute;
+		margin-top: -50px;
+		margin-left: 210px;
 
-.foto-perfil{
-	border-radius: 100%;
-	float: left;
-	margin-right: 10%;
-	margin-top: -10px;
-	width: 140px;
-	height: 140px;
-}
+	}
 
-.profile-info {
-	line-height: 150%;
-}
+	.mobile2 {
+		position: relative;
+		padding-top: 10px;
+		margin-left: 210px;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
 
-.highlighted-stories {
-	columns: 2;
-	margin-top: 7%;
-	margin-left: 1%;
-}
+	.mobile3 {
+		position: absolute;
+		margin-top: 0;
+		width: 500px;
+		font-size: 20px;
+		margin-left: 210px;
+		float: right;
+		
+	}
 
-.destaque {
-	width: 77px;
-	height: 77px;
-	border-radius: 100%;
-	object-fit: cover;
-	margin-left: 3.5%;
-}
+	.foto-perfil{
+		border: 2px solid rgba(192, 192, 192, 0.658);
+		border-style: double;
+		margin-top: -45px;
+		margin-left: -40px;
+		width: 180px;
+		height: 180px;
+	}
 
-.subdestaques {
-	margin-left: 3.7%;
-	margin-top: 0.7%;
-	margin-bottom: 4%;
-	font-weight: bold;
-}
+	.profile-info {
+		line-height: 150%;
+	}
 
-hr {
-	width: 100%;
-}
+	.highlighted-stories {
+		columns: 2;
+		margin-top: 65px;
+		margin-left: 10px;
+	}
 
-.icones {
-	margin-left: 320px;
-	margin-bottom: 25px;
-}
+	.destaque {
+		margin: 0 auto;
+		margin-top: 100px;
 
-.icons {
-	width: 15px;
-	height: 15px;
-}
+	}
 
-.fotos {
-	columns: 3;
-	width: 100%;
-}
+	.subdestaques {
+		margin-left: 20px;
+		font-weight: bold;
+	}
 
-.feed {
-	width: 293px;
-	height: 293px;
-	object-fit: cover;
-	object-position: top;
-	margin-bottom: 10%;
-	margin-left: 2%;
-}
+	hr {
+		display: unset;
+	}
+
+	.icones {
+		margin-left: 230px;
+		margin-bottom: 25px;
+	}
+
+	.fotos {
+		width: 935px;
+		margin-left: -67px;
+	}
+
+	.feed {
+		width: 293px;
+		height: 293px;
+		object-fit: cover;
+		object-position: top;
+	}
 
 }
