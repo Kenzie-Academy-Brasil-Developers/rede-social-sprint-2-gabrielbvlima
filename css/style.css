@@ -99,12 +99,9 @@ hr {
 	}
 
 	body{
-		border: 2px solid black;
 		display: flex;
 		width: 935px;
-		margin: 0;
-		margin-top: 20px;
-		margin-left: 20px;
+		margin: 20px 0px 20px 20px;
 		font-family: Helvetica, Arial, sans-serif;
 		color: #262626;
 	}
@@ -148,6 +145,7 @@ hr {
 	}
 
 	.highlighted-stories {
+		position: relative;
 		columns: 2;
 		margin-top: 65px;
 		margin-left: 10px;
@@ -161,15 +159,12 @@ hr {
 
 	.subdestaques {
 		margin-left: 20px;
+		margin-bottom: 70px;
 		font-weight: bold;
 	}
 
-	hr {
-		display: unset;
-	}
-
 	.icones {
-		margin-left: 230px;
+		margin-left: 240px;
 		margin-bottom: 25px;
 	}
 
